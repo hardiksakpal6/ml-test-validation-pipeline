@@ -7,8 +7,9 @@ from sklearn.metrics import accuracy_score, f1_score
 
 from src.data import load_data, split_data
 
-MODEL_PATH = Path("model.joblib")
-METRICS_PATH=Path("metrics.json")
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+MODEL_PATH = PROJECT_ROOT / "model.joblib"
+METRICS_PATH = PROJECT_ROOT / "metrics" / "metrics.json"
 
 def train():
     df = load_data()
