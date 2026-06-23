@@ -1,3 +1,5 @@
+![CI](https://github.com/hardiksakpal6/ml-test-validation-pipeline/actions/workflows/ci.yml/badge.svg)
+
 # ML Test &amp; Validation Pipeline
 
 **An end-to-end quality-assurance pipeline for a machine-learning system — automated unit tests, data validation, model quality gates, regression testing, and CI that blocks regressions before merge.**
